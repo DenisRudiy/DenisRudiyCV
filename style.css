@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(87, 87, 87);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.about .sidebar {
+  background-color: #323b4b;
+  width: 420px;
+  height: 1400px;
+  color: white;
+}
+.about .sidebar .img-container {
+  display: flex;
+  justify-content: center;
+}
+.about .sidebar .img-container img {
+  padding-top: 40px;
+  width: 200px;
+  height: 180px;
+}
+.about .sidebar .side-content {
+  padding-left: 80px;
+}
+.about .sidebar .side-content h1 {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+.about .sidebar .side-content .skill-list {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+}
+.about .sidebar .side-content .skill-list li {
+  padding: 0px 0px;
+}
+
+.about .info {
+  background-color: #f4f4f4;
+  width: 720px;
+  height: 1320px;
+  padding: 40px;
+}
+.about .info .name {
+  font-size: 54px;
+}
+.about .info .about {
+  font-weight: 400;
+  color: #696969;
+}
+
+.about .info .skills {
+  margin: 10px 0;
+  margin-top: 40px;
+}
+.about .info .underbar {
+  height: 1px;
+  background: black;
+  outline: none;
+}
+.about .info .skills-detail .skills-title {
+  color: #696969;
+}
+.about .info .skills-detail .skills-info {
+  color: #696969;
+}
+
+.about .info .links {
+  font-size: 15px;
+  margin: 10px 0;
+}
+.about .info .links .p-link {
+  color: #696969;
+  text-decoration: none;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.projects .top-bar {
+  background-color: #323b4b;
+  width: 1220px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.projects .top-bar .projects-title {
+  padding-left: 100px;
+  color: white;
+}
+.projects .content {
+  background-color: #ffffff;
+  width: 1140px;
+  height: 1500px;
+  padding: 0px 40px;
+}
+.projects .content .project-name {
+  color: #696969;
+}
+.projects .content .project-details {
+  color: #696969;
+  font-size: 18px;
+}
+.projects .content .project-details a {
+  color: #696969;
+  text-decoration: none !important;
+}
+.projects .content .project-details .photo-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.projects .content .project-details .requiem {
+  width: 95%;
+}
+.projects .content .project-details .bshop {
+  width: 50%;
+}
